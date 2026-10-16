@@ -4,7 +4,10 @@
   "description": "The harbor of Rhodes around 280 BCE, where the bronze sun god Helios stood about 33 m tall. Charebubu the bronzesmith tells its story.",
   "spawns": {
     "default": "On the quay, facing the Colossus and the harbor",
-    "from_square": "In front of the portal back to Metaverse Square, facing into the world"
+    "from_square": "In front of the portal back to Metaverse Square, facing into the world",
+    "from_mausoleum": "Arriving from Mausoleum, in front of the portal plaza",
+    "to_lighthouse_of_alexandria": "In front of the portal to Lighthouse",
+    "to_statue_of_zeus": "In front of the portal to Statue of Zeus"
   },
   "portals": [
     {
@@ -13,6 +16,20 @@
       "href": "https://zlisto.github.io/hub_world/",
       "spawn": "by_colossus_of_rhodes",
       "where": "A glowing pink doorway near where you arrive"
+    },
+    {
+      "id": "to_lighthouse_of_alexandria",
+      "label": "Lighthouse",
+      "href": "https://zlisto.github.io/lighthouse-of-alexandria/",
+      "spawn": "from_colossus_of_rhodes",
+      "where": "A tour doorway beside the portal to Metaverse Square (next stop · tour)"
+    },
+    {
+      "id": "to_statue_of_zeus",
+      "label": "Statue of Zeus",
+      "href": "https://zlisto.github.io/statue-of-zeus-at-olympia/",
+      "spawn": "from_colossus_of_rhodes",
+      "where": "A shortcut doorway beside the portal to Metaverse Square (Helios → Zeus)"
     }
   ]
 }
