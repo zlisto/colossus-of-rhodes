@@ -78,7 +78,7 @@ Its legacy lived on: the 1883 poem on the Statue of Liberty is called **"The New
   },
 
   env: { sky: '#7eb8e8', fog: '#c5daf0', fogNear: 180, fogFar: 700, ground: '#d6c9a8', hemiSky: '#fff4e2', hemiGround: '#5f8aa0', sun: [50, 90, 40], sunIntensity: 2.0 },
-  speed: { walk: 6, run: 11 },
+  speed: { walk: 12, run: 20 },
   bound: 160,
   spawn: { x: 0, z: 48, yaw: 0 }, // facing the Colossus (toward -z)
   portal: { x: -12, z: 55, rot: Math.PI, href: HUB, spawn: 'by_colossus_of_rhodes' },
