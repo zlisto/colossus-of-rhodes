@@ -1,0 +1,18 @@
+{
+  "protocol": "mvw/0.1",
+  "name": "Colossus of Rhodes",
+  "description": "The harbor of Rhodes around 280 BCE, where the bronze sun god Helios stood about 33 m tall. Charebubu the bronzesmith tells its story.",
+  "spawns": {
+    "default": "On the quay, facing the Colossus and the harbor",
+    "from_square": "In front of the portal back to Metaverse Square, facing into the world"
+  },
+  "portals": [
+    {
+      "id": "to_square",
+      "label": "Metaverse Square",
+      "href": "https://zlisto.github.io/hub_world/",
+      "spawn": "by_colossus_of_rhodes",
+      "where": "A glowing pink doorway near where you arrive"
+    }
+  ]
+}
